@@ -192,6 +192,7 @@ pub fn native_arch() -> &'static str {
     {
         "x86_64" => "x86_64",
         "i686" => "x86",
+        "aarch64" => "aarch64",
         _ => panic!("This test should be gated on cross_compile::disabled."),
     }
 }
